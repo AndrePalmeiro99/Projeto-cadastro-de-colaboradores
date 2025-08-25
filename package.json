@@ -1,0 +1,36 @@
+{
+  "name": "tsbackend",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "npx tsc",
+    "dev": "ts-node-dev src/main.ts",
+    "start": "ts-node src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./src/**/*.ts --fix"
+  },
+  "keywords": [],
+  "author": "André Palmeiro",
+  "license": "MIT",
+  "description": "Projeto de Typescript",
+  "devDependencies": {
+    "@eslint/js": "^9.34.0",
+    "@eslint/json": "^0.13.1",
+    "@eslint/markdown": "^7.2.0",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.3.0",
+    "@typescript-eslint/eslint-plugin": "^8.40.0",
+    "@typescript-eslint/parser": "^8.40.0",
+    "eslint": "^9.34.0",
+    "globals": "^16.3.0",
+    "jiti": "^2.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.40.0"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "ts-node-dev": "^2.0.0"
+  }
+}
